@@ -22,9 +22,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/common/hexutil"
+	"github.com/gatechain/op-geth/rlp"
 )
 
 // txJSON is the JSON representation of transactions.

@@ -17,9 +17,9 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/rlp"
 )
 
 // SecureTrie is the old name of StateTrie.

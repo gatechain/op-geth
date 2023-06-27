@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core/rawdb"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/ethdb"
+	"github.com/gatechain/op-geth/log"
+	"github.com/gatechain/op-geth/rlp"
+	"github.com/gatechain/op-geth/trie"
 )
 
 // trieKV represents a trie key-value pair

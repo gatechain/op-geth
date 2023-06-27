@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core/rawdb"
+	"github.com/gatechain/op-geth/ethdb"
+	"github.com/gatechain/op-geth/log"
+	"github.com/gatechain/op-geth/rlp"
 )
 
 // CheckDanglingStorage iterates the snap storage data, and verifies that all

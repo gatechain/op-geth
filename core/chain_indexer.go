@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core/rawdb"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/ethdb"
+	"github.com/gatechain/op-geth/event"
+	"github.com/gatechain/op-geth/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

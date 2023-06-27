@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/consensus/ethash"
+	"github.com/gatechain/op-geth/core"
+	"github.com/gatechain/op-geth/core/rawdb"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/crypto"
+	"github.com/gatechain/op-geth/params"
 )
 
 // Test chain parameters.

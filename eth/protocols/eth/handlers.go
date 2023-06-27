@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/log"
+	"github.com/gatechain/op-geth/rlp"
+	"github.com/gatechain/op-geth/trie"
 )
 
 // handleGetBlockHeaders66 is the eth/66 version of handleGetBlockHeaders

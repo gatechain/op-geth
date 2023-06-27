@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/common/hexutil"
+	"github.com/gatechain/op-geth/core"
+	"github.com/gatechain/op-geth/core/rawdb"
+	"github.com/gatechain/op-geth/core/state"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/internal/ethapi"
+	"github.com/gatechain/op-geth/log"
+	"github.com/gatechain/op-geth/rlp"
+	"github.com/gatechain/op-geth/rpc"
+	"github.com/gatechain/op-geth/trie"
 )
 
 // EthereumAPI provides an API to access Ethereum full node-related information.

@@ -39,24 +39,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gatechain/op-geth/accounts"
+	"github.com/gatechain/op-geth/accounts/keystore"
+	"github.com/gatechain/op-geth/cmd/utils"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/eth/downloader"
+	"github.com/gatechain/op-geth/eth/ethconfig"
+	"github.com/gatechain/op-geth/ethclient"
+	"github.com/gatechain/op-geth/ethstats"
+	"github.com/gatechain/op-geth/internal/version"
+	"github.com/gatechain/op-geth/les"
+	"github.com/gatechain/op-geth/log"
+	"github.com/gatechain/op-geth/node"
+	"github.com/gatechain/op-geth/p2p"
+	"github.com/gatechain/op-geth/p2p/enode"
+	"github.com/gatechain/op-geth/p2p/nat"
+	"github.com/gatechain/op-geth/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -463,7 +463,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/gatechain/op-geth/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

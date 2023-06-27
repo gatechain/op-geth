@@ -19,8 +19,8 @@ package types
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/params"
 )
 
 type RollupGasData struct {

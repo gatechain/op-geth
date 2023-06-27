@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

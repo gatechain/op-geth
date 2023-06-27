@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/gatechain/op-geth"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/common/hexutil"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

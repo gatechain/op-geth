@@ -25,9 +25,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/params"
+	"github.com/gatechain/op-geth/rlp"
 	"github.com/kylelemons/godebug/diff"
 	"github.com/stretchr/testify/require"
 )

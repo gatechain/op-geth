@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/consensus"
+	"github.com/gatechain/op-geth/consensus/misc"
+	"github.com/gatechain/op-geth/core/state"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/core/vm"
+	"github.com/gatechain/op-geth/crypto"
+	"github.com/gatechain/op-geth/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

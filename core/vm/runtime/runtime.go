@@ -20,12 +20,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/core/rawdb"
+	"github.com/gatechain/op-geth/core/state"
+	"github.com/gatechain/op-geth/core/vm"
+	"github.com/gatechain/op-geth/crypto"
+	"github.com/gatechain/op-geth/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

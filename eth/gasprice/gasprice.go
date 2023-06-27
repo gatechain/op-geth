@@ -22,14 +22,14 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gatechain/op-geth/common"
+	"github.com/gatechain/op-geth/common/lru"
+	"github.com/gatechain/op-geth/core"
+	"github.com/gatechain/op-geth/core/types"
+	"github.com/gatechain/op-geth/event"
+	"github.com/gatechain/op-geth/log"
+	"github.com/gatechain/op-geth/params"
+	"github.com/gatechain/op-geth/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block
